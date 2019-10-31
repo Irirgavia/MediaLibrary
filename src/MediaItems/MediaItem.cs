@@ -1,10 +1,11 @@
-﻿using System;
+﻿using MediaLibrary.src.MediaItems.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MediaLibrary.MediaItems
 {
-    public abstract class MediaItem
+    public class MediaItem : IMediaItem
     {
         public int Id { get; private set; }
         public string Name { get; set; }
@@ -18,5 +19,9 @@ namespace MediaLibrary.MediaItems
             double size,
             string type)
         { }
+
+        public void Open() { }
+        public void Close() { }
+        public void GetInfo() {}
     }
 }
