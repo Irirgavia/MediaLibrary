@@ -13,7 +13,8 @@ namespace MediaLibrary.MediaItems
             double size,
             string type) : base(id, name, size, type)
         { }
-
+        public override void Open() { }
+        public override void Close() { }
         public void Pause() { }
         public void Stop() { }
         public void Speed() { }

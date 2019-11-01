@@ -1,9 +1,6 @@
 ﻿using MediaLibrary.MediaItems;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MediaLibrary.src
+namespace MediaLibrary.src.MediaPlayer.Interfaces
 {
     public interface IMediaList
     {
@@ -15,7 +12,6 @@ namespace MediaLibrary.src
         void GetAllItems();
         void AddItem(MediaItem mediaItem);
         void RemoveItem(MediaItem mediaItem);
-
         void Find(MediaItem mediaItem);
         void Sort();
     }

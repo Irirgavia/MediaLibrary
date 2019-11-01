@@ -1,11 +1,9 @@
 ﻿using MediaLibrary.MediaItems;
-using MediaLibrary.src;
 using MediaLibrary.src.MediaItems.Interfaces;
-using System;
+using MediaLibrary.src.MediaPlayer.Interfaces;
 using System.Collections.Generic;
-using System.Text;
 
-namespace MediaLibrary.src
+namespace MediaLibrary.src.MediaPlayer
 {
     public class Album : IMediaList, IMediaItem
     {

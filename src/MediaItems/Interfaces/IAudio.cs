@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MediaLibrary.src.MediaItems.Interfaces
 {
-    public interface IAudio
+    public interface IAudio: IMediaItem
     {
         void Pause();
         void Speed();

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace MediaLibrary.src.MediaItems.Interfaces
 {
-    public interface IVideo : IMediaItem, IAudio, IPhoto
+    public interface IVideo : IAudio, IPhoto
     {
         void AddSub();
-        void RemoveSum();
+        void RemoveSub();
     }
 }

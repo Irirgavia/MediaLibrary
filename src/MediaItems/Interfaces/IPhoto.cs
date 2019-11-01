@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MediaLibrary.src.MediaItems.Interfaces
 {
-    public interface IPhoto
+    public interface IPhoto: IMediaItem
     {
         void Zoom();
         void Rotate();
